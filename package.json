@@ -9,7 +9,7 @@
   "author": "wibetter",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write \"src/**/**/*.{js,jsx,ts,tsx,vue,scss,json}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,scss,json}\""
   },
   "files": [
     "src/*"
