@@ -9,6 +9,7 @@
   "author": "wibetter",
   "license": "MIT",
   "scripts": {
+    "dev": "amis dev",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,scss,json}\""
   },
   "files": [
@@ -33,11 +34,16 @@
     "url": "https://github.com/wibetter/web-code/issues"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.10.1"
+    "@babel/polyfill": "^7.10.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^9.1.1",
+    "amis-widget-cli": "^3.2.9",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.9",
     "prettier": "^2.0.5"
